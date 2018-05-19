@@ -1,9 +1,10 @@
-DOM 扩展
+## DOM 扩展
 
-Selector API Level 1的两个核心方法 querySelector(),querySelectorAll() 返回一个静态的NodeList对象
+### Selector API Level 1
+两个核心方法 querySelector(),querySelectorAll() 返回一个静态的NodeList对象
 
 
-元素遍历
+### 元素遍历
 
 对于元素间的空格，IE9及之前的版本不会返回文本节点，而其他所有浏览器都会返回文本节点
 
@@ -20,7 +21,7 @@ previousElementSibling:指向前一个同辈元素，previousSibling的元素版
 nextElementSibling 指向后一个元素 nextSibling的元素版
 
 
-HTML5
+### HTML5
 
 HTML5规范围绕如何使用新增标记定义了大量的JavascriptAPI ，其中一些API与DOM重叠，定义了浏览器应该支持的DOM扩展
 
@@ -36,7 +37,7 @@ classList上的方法
 
 
 
-HTMLDocument变化
+### HTMLDocument变化
 
 readyState属性
 
@@ -62,12 +63,12 @@ innerHTML 不要指望所有浏览器返回的innerHTML值完全相同
 ```
 
 
-scrollIntoView()
+### scrollIntoView()
 
 可以在所有的HTML元素上调用，给这个方法传入true做参数，或者不传参数，窗口滚动之后会让调用元素的顶部与视口顶部尽可能的平齐。传入false做参数，调用元素会尽可能全部出现在视口中。
 
 
-专有扩展
+### 专有扩展
 
 文档模式
 
